@@ -1,4 +1,4 @@
-Application fully built with pure php on top of a basic MVC structure.
+Application fully built with pure php on top of a basic MVC structure
 Tecnologies used-
 Bootstrap
 Font awesome
