@@ -1,0 +1,27 @@
+{
+    "name": "hugo/bng",
+    "description": "Aplicação para gestão de name gathering",
+    "type": "project",
+    "authors": [
+        {
+            "name": "HugoM"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^3.4",
+        "phpoffice/phpspreadsheet": "^1.29",
+        "mpdf/mpdf": "^8.2",
+        "phpmailer/phpmailer": "^6.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "bng\\Controllers\\":["app/controllers"],
+            "bng\\Models\\":["app/models"],
+            "bng\\System\\":["app/system"]
+        },
+        "files": [
+            "app/config.php",
+            "app/helpers/functions.php"
+        ]
+    }
+}
